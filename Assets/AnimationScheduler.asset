@@ -12,4 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11e2708c8c2d34706b3a57c32d3fd37c, type: 3}
   m_Name: AnimationScheduler
   m_EditorClassIdentifier: 
-  actions: []
+  actions:
+  - objectName: TestAnim
+    time: 8
+    offset: 2.6666667
+    actions: []
+    speed: 5
+    fadeTracks:
+    - clipName: Sphere
+      blendDuration: 10
+      times:
+      - 0
+      - 2
+      - 4
+      - 10
+      weights:
+      - 0
+      - 1
+      - 1
+      - 0
+    - clipName: Sphere.001
+      blendDuration: 10
+      times:
+      - 0
+      - 2
+      - 4
+      - 10
+      weights:
+      - 1
+      - 0
+      - 0
+      - 1
+    - clipName: Sphere.002
+      blendDuration: 10
+      times:
+      - 0
+      - 2
+      - 4
+      - 10
+      weights:
+      - 0
+      - 1
+      - 1
+      - 0
+    - clipName: package
+      blendDuration: 10
+      times:
+      - 0
+      - 2
+      - 4
+      - 10
+      weights:
+      - 0
+      - 1
+      - 1
+      - 0

@@ -10,6 +10,8 @@ public class LayeredAnimationTrigger : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         totalLayers = animator.layerCount;
+
+        PrintHierarchy(transform);
     }
 
     void Update()
@@ -19,6 +21,12 @@ public class LayeredAnimationTrigger : MonoBehaviour
             PlayNextAnimation();
         }
     }
+
+  private void PrintHierarchy(Transform t, int depth = 0) {
+  Debug.Log($"{new string(' ', depth*2)}[{t.GetSiblingIndex()}] {t.name}");
+  foreach (Transform child in t) PrintHierarchy(child, depth+1);
+}
+
 
     void PlayNextAnimation()
     {
