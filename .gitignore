@@ -1,0 +1,67 @@
+# ========== Unity generated folders ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# ========== Unity asset meta data ==========
+sysinfo.txt
+
+# ========== User-specific settings ==========
+UserSettings/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# ========== Auto-generated data ==========
+*.unityproj
+*.sln
+*.tmp
+*.bak
+*.backup
+*.mdb
+*.pidb
+*.log
+
+# ========== Cache or local builds ==========
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+
+# ========== OS-generated files ==========
+.DS_Store
+*.swp
+*.iml
+Thumbs.db
+desktop.ini
+
+# ========== Rider project files ==========
+.idea/
+*.sln.iml
+
+# ========== Visual Studio Code settings ==========
+.vscode/
+
+# ========== Build artifacts and packages ==========
+*.apk
+*.aab
+*.zip
+*.tar.gz
+*.unitypackage
+
+# ========== Ignore Addressables content cache ==========
+Assets/AddressableAssetsData/*/AssetBundleBuildCache/
